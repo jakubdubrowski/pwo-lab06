@@ -10,6 +10,12 @@ import java.io.BufferedWriter;
 
 import java.io.IOException;
 
+/**
+ * Klasa narzędziowa służąca do obsługi obiektów<br>
+ * implementujących interfejs {@link SequenceGenerator}
+ * @author james
+ * @version 1.0.0
+ */
 public class SequenceTools {
 
     private static String getTerms(SequenceGenerator sg,
@@ -33,6 +39,13 @@ public class SequenceTools {
 
     }
 
+    /**
+     *
+     * @param sg
+     * @param from
+     * @param to
+     * @return
+     */
     public static String getTermsAsColumn(SequenceGenerator sg,
             int from, int to) {
 
@@ -40,6 +53,22 @@ public class SequenceTools {
 
     }
 
+    /**
+     *
+     * Zamienia wyrazy ciągu na tekst.<br>
+     * Wyrazy ciągu tworzą kolumnę.
+     *
+     * @param sg Dowolny obiekt implementujący {@link SequenceGenerator}
+     * @param from Początkowy wyraz ciągu
+     * @param to Końcowy wyraz ciągu
+     * @return Wyrazy ciągu w postaci tekstu tworzącego kolumnę
+     * @see #getTermsAsLine(pwo.utils.SequenceGenerator, int, int)
+     * 
+     * @param sg
+     * @param from
+     * @param to
+     * @return
+     */
     public static String getTermsAsLine(SequenceGenerator sg,
             int from, int to) {
 
@@ -47,6 +76,23 @@ public class SequenceTools {
 
     }
 
+    /**
+     *
+     * Zamiania wyrazy ciągu na tekst.<br>
+     * Wyrazy ciągu tworzą wiersz.
+     *
+     * @param sg Dowolny obiekt implementujący {@link SequenceGenerator}
+     * @param from Początkowy wyraz ciągu
+     * @param to Końcowy wyraz ciągu
+     * @return Wyrazy ciągu w postaci tekstu tworzącego wiersz
+     * @see #getTermsAsColumn(pwo.utils.SequenceGenerator, int, int)
+     * 
+     * @param sg
+     * @param from
+     * @param to
+     * @param fileName
+     * @return
+     */
     public static boolean writeToFile(SequenceGenerator sg,
             int from, int to, String fileName) {
 
@@ -62,5 +108,14 @@ public class SequenceTools {
         return true;
 
     }
-
+    /** * Zapisuje wyrazy ciągu do pliku w postaci kolumny.
+     *
+     *
+     * @param sg Dowolny obiekt implementujący {@link SequenceGenerator}
+     * @param from Początkowy wyraz ciągu
+     * @param to Końcowy wyraz ciągu
+     * @param fileName Nazwa pliku
+     * @return true jeżeli udało się zapisać plik,
+     * false w przeciwnym wypadku
+     */
 }
