@@ -1,0 +1,45 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'/home/james/semestrVII/pwo/lab06/pwo-lab05/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/james/semestrVII/pwo/lab06/pwo-lab05/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'lab06 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'lab06 1.0-SNAPSHOT API'
+pwo.app
+pwo.seq
+pwo.utils
+/home/james/semestrVII/pwo/lab06/pwo-lab05/src/main/java = 1666433041247
+/home/james/semestrVII/pwo/lab06/pwo-lab05/target/site/apidocs/element-list = 1666434848944
+/home/james/semestrVII/pwo/lab06/pwo-lab05/target/site/apidocs/overview-tree.html = 1666434849007
+/home/james/semestrVII/pwo/lab06/pwo-lab05/target/site/apidocs/index.html = 1666434849010
+/home/james/semestrVII/pwo/lab06/pwo-lab05/target/site/apidocs/allclasses-index.html = 1666434849033
+/home/james/semestrVII/pwo/lab06/pwo-lab05/target/site/apidocs/allpackages-index.html = 1666434849035
+/home/james/semestrVII/pwo/lab06/pwo-lab05/target/site/apidocs/module-search-index.js = 1666434849036
+/home/james/semestrVII/pwo/lab06/pwo-lab05/target/site/apidocs/package-search-index.js = 1666434849037
+/home/james/semestrVII/pwo/lab06/pwo-lab05/target/site/apidocs/type-search-index.js = 1666434849037
+/home/james/semestrVII/pwo/lab06/pwo-lab05/target/site/apidocs/member-search-index.js = 1666434849037
+/home/james/semestrVII/pwo/lab06/pwo-lab05/target/site/apidocs/tag-search-index.js = 1666434849037
+/home/james/semestrVII/pwo/lab06/pwo-lab05/target/site/apidocs/index-all.html = 1666434849059
+/home/james/semestrVII/pwo/lab06/pwo-lab05/target/site/apidocs/overview-summary.html = 1666434849061
+/home/james/semestrVII/pwo/lab06/pwo-lab05/target/site/apidocs/help-doc.html = 1666434849067
+/home/james/semestrVII/pwo/lab06/pwo-lab05/target/site/apidocs/stylesheet.css = 1666434849069
+/home/james/semestrVII/pwo/lab06/pwo-lab05/target/site/apidocs/script.js = 1666434849070
+/home/james/semestrVII/pwo/lab06/pwo-lab05/target/site/apidocs/search.js = 1666434849071
+/home/james/semestrVII/pwo/lab06/pwo-lab05/target/site/apidocs/jquery-ui.overrides.css = 1666434849078
